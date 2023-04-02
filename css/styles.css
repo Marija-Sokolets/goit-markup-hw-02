@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: var(--color-navy-blue);
+    color: var(--color-slate);
     background-color: var(--color-white);
 }
 a {
@@ -34,7 +34,7 @@ h2 {text-transform: capitalize;}
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -42,7 +42,7 @@ h2 {text-transform: capitalize;}
     color: var(--color-iris);
 }
 
-.logo-item-header {color: var(--color-navy-blue);}
+.link {color: var(--color-navy-blue);}
 
 .site-nav {
     font-weight: 500;
@@ -51,20 +51,26 @@ h2 {text-transform: capitalize;}
     letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover, 
-.site-nav .link:focus {
+.site-nav .list:hover, 
+.site-nav .list:focus {
+    list-style: none;
     color: var(--color-ocean);
 }
 
-.outh-nav .link {
+.outh-nav {
+    font-style: normal;
+}
+.outh-nav .list {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+    list-style: none;
 }
 
-.outh-nav .link:hover, 
-.outh-nav .link:focus {color: var(--color-ocean);}
+.outh-nav .list:hover, 
+.outh-nav .list:focus {
+    color: var(--color-ocean);}
 
 /* hero image */
 
@@ -75,7 +81,7 @@ h2 {text-transform: capitalize;}
     font-size: 56px;
     letter-spacing: 0.02em;
     color: var(--color-white);
-background-color: var(--color-navy-blue);
+    background-color: var(--color-navy-blue);
 }
 
 .button-order {
@@ -94,7 +100,7 @@ background-color: var(--color-navy-blue);
 .button-order:hover,
 .button-order:focus {background-color: var(--color-ocean);}
 
-/* Basic principles */
+/* Section 1 */
 
 .title-hidden {display: none;}
 
@@ -103,26 +109,28 @@ background-color: var(--color-navy-blue);
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
 }
 .text {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--color-slate)
 }
 
-/* What are we doing */
+/* Section 2 */
 
 .title {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.11;
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--color-navy-blue);
 }
 
-/* Our team */
+/* Section 3 */
 
 .team-section {
     background-color: var(--color-cloud);
@@ -131,6 +139,7 @@ background-color: var(--color-navy-blue);
 /* Filters */
 
 .button-filter {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -139,7 +148,7 @@ background-color: var(--color-navy-blue);
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--color-iris);
-    background-color: var(--color-cornflower);
+    background-color: var(--color-cloud);
     border-color: var(--color-cornflower);
     cursor: pointer;
 }
