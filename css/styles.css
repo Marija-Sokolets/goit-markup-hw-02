@@ -67,9 +67,11 @@ h2 {text-transform: capitalize;}
 
 .outh-nav {
     font-style: normal;
-    color: var(--color-slate);
     text-decoration: none;
 }
+
+.contact {
+    color: var(--color-slate);}
 
 .outh-nav .link:hover, 
 .outh-nav .link:focus {
