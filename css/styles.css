@@ -5,9 +5,9 @@ body {
     background-color: var(--color-white);
 }
 a {
-    text-decoration: none; 
     font-style: normal;
-    color: var(--color-navy-blue);}
+    color: var(--color-navy-blue);
+}
 p {text-align: left;}
 ul {list-style: none;}
 h2 {text-transform: capitalize;}
@@ -42,35 +42,39 @@ h2 {text-transform: capitalize;}
     color: var(--color-iris);
 }
 
-.link {color: var(--color-navy-blue);}
+.link {
+    text-decoration: none;
+}
 
-.site-nav {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+.logo-link {
+    color: var(--color-navy-blue);
 }
 
 .site-nav .list:hover, 
 .site-nav .list:focus {
-    list-style: none;
     color: var(--color-ocean);
+}
+
+.list {
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+    text-decoration: none;
 }
 
 .outh-nav {
     font-style: normal;
-}
-.outh-nav .list {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
     color: var(--color-slate);
-    list-style: none;
+    text-decoration: none;
 }
 
 .outh-nav .list:hover, 
 .outh-nav .list:focus {
     color: var(--color-ocean);}
+
 
 /* hero image */
 
@@ -78,6 +82,7 @@ h2 {text-transform: capitalize;}
     line-height: 60px;
     text-align: center;
     font-weight: 700;
+    line-height: 1.07;
     font-size: 56px;
     letter-spacing: 0.02em;
     color: var(--color-white);
@@ -136,6 +141,9 @@ h2 {text-transform: capitalize;}
     background-color: var(--color-cloud);
 }
 
+.team-list {
+    background-color: var(--color-white);
+}
 /* Filters */
 
 .button-filter {
