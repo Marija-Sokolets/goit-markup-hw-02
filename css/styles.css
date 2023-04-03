@@ -44,7 +44,6 @@ h2 {text-transform: capitalize;}
 
 .link {
     text-decoration: none;
-    color: var(--color-slate);
 }
 
 .logo-link {
@@ -72,8 +71,8 @@ h2 {text-transform: capitalize;}
     text-decoration: none;
 }
 
-.outh-nav .list:hover, 
-.outh-nav .list:focus {
+.outh-nav .link:hover, 
+.outh-nav .link:focus {
     color: var(--color-ocean);}
 
 
