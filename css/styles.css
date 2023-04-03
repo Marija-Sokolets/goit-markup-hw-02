@@ -71,7 +71,8 @@ h2 {text-transform: capitalize;}
 }
 
 .contact {
-    color: var(--color-slate);}
+    color: var(--color-slate);
+}
 
 .outh-nav .link:hover, 
 .outh-nav .link:focus {
