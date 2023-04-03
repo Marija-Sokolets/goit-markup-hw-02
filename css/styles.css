@@ -44,14 +44,15 @@ h2 {text-transform: capitalize;}
 
 .link {
     text-decoration: none;
+    color: var(--color-slate);
 }
 
 .logo-link {
     color: var(--color-navy-blue);
 }
 
-.site-nav .list:hover, 
-.site-nav .list:focus {
+.site-nav .link:hover, 
+.site-nav .link:focus {
     color: var(--color-ocean);
 }
 
@@ -78,6 +79,10 @@ h2 {text-transform: capitalize;}
 
 /* hero image */
 
+.hero {
+    background-color: var(--color-navy-blue);
+}
+
 .subject {
     line-height: 60px;
     text-align: center;
@@ -86,7 +91,6 @@ h2 {text-transform: capitalize;}
     font-size: 56px;
     letter-spacing: 0.02em;
     color: var(--color-white);
-    background-color: var(--color-navy-blue);
 }
 
 .button-order {
@@ -164,6 +168,10 @@ h2 {text-transform: capitalize;}
 .button-filter:focus {
     color: var(--color-white);
     background-color: var(--color-ocean);
+}
+
+.content {
+    text-decoration: none;
 }
 
 /* Footer */
