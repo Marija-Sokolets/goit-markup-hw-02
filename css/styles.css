@@ -1,15 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     color: var(--color-slate);
     background-color: var(--color-white);
 }
-a {
-    font-style: normal;
-    color: var(--color-navy-blue);
-}
+
 p {text-align: left;}
-ul {list-style: none;}
 h2 {text-transform: capitalize;}
 
 :root {
@@ -31,12 +26,9 @@ h2 {text-transform: capitalize;}
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris);
@@ -50,6 +42,12 @@ h2 {text-transform: capitalize;}
     color: var(--color-navy-blue);
 }
 
+.site-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
 .site-nav .link:hover, 
 .site-nav .link:focus {
     color: var(--color-ocean);
@@ -57,12 +55,6 @@ h2 {text-transform: capitalize;}
 
 .list {
     list-style: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-navy-blue);
-    text-decoration: none;
 }
 
 .outh-nav {
@@ -71,6 +63,10 @@ h2 {text-transform: capitalize;}
 }
 
 .contact {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color: var(--color-slate);
 }
 
@@ -86,11 +82,9 @@ h2 {text-transform: capitalize;}
 }
 
 .subject {
-    line-height: 60px;
-    text-align: center;
     font-weight: 700;
-    line-height: 1.07;
     font-size: 56px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--color-white);
 }
@@ -99,8 +93,6 @@ h2 {text-transform: capitalize;}
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--color-white);
     background-color: var(--color-iris);
@@ -123,6 +115,7 @@ h2 {text-transform: capitalize;}
     color: var(--color-navy-blue);
 }
 .text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -135,7 +128,6 @@ h2 {text-transform: capitalize;}
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-navy-blue);
@@ -157,9 +149,6 @@ h2 {text-transform: capitalize;}
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
     color: var(--color-iris);
     background-color: var(--color-cloud);
@@ -172,14 +161,10 @@ h2 {text-transform: capitalize;}
     background-color: var(--color-ocean);
 }
 
-.content {
-    text-decoration: none;
-}
-
 /* Footer */
 
 .footer {
     color: var(--color-cloud);
     background-color: var(--color-navy-blue);
 }
-.logo-item-footer {color: var(--color-cloud);}
+.logo-link-footer {color: var(--color-cloud);}
